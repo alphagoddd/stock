@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{{ config['app']['title'] }}</title>
+</head>
+<body>
+    <header>
+        <h1>{{ config['app']['title'] }}</h1>
+    </header>
+    <form action="/analyze" method="POST">
+        <label for="ticker">Enter Stock Ticker:</label>
+        <input type="text" id="ticker" name="ticker" required>
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>

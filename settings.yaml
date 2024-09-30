@@ -1,0 +1,14 @@
+app:
+  title: "Stock Analysis and Prediction"
+  version: "1.0"
+
+data:
+  historical_data_path: "../data/historical/"
+  real_time_data_path: "../data/real_time/"
+  news_data_path: "../data/news/"
+  economic_data_path: "../data/economic/"
+
+models:
+  sentiment_model_path: "../models/sentiment_model.pkl"
+  stock_model_path: "../models/stock_model.pkl"
+  scaler_path: "../models/scaler.pkl"

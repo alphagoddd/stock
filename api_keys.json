@@ -1,0 +1,5 @@
+{
+    "yahoo_finance": "YOUR_YAHOO_FINANCE_API_KEY",
+    "news_api": "7211a81d425945a388ef8dbc29b75c56",
+    "fred_api": "YOUR_FRED_API_KEY"
+}
